@@ -3,15 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <link rel ="stylesheet" href="style.css">
-    <title>DR.Stoun</title>
+    <title>DR.Stone</title>
 </head>
 <body>
-    <h1>Good morning world</h1>
-    <img src="arbuz.jpeg">
-    <div>
+    <form action="">
+        <div class="input">
+            <label>Введите имя:</label>
+            <input id="User-name" type="text">
+        </div>
+        <div class="input">
+            <label>Введите почту:</label>
+            <input id="User-email" type="email">
+        </div>
+        <div class="input">
+            <label>Введите номер телефона:</label>
+            <input id="User-phone" type="number">
+        </div>
+    </form>
+    <div class="header">
+        <h1>покупка билетов</h1>
+        <p>сервис для покупки билетов на разные направления</p>
+    </div>
+    <div class="inner">
+        <div class="item">
+            Москва-Нижний новгород - 1900 рублей
+            <img src="" alt="">
+            <button class="btn" id="btn1">Заказать</button>
+        </div>
+        <div class="item">
+             Самара-казань - 1200 рублей
+            <img src="" alt="">
+            <button class="btn" id="btn2">Заказать</button>
+        </div>
+         <div class="item">
+             Ижевск-Брянск - 4300 рублей
+            <img src="" alt="">
+            <button class="btn" id="btn3">Заказать</button>
+        </div>
+         <div class="item">
+             Владивосток-Сочи - 92000 рублей
+            <img src="" alt="">
+            <button class="btn" id="btn4">Заказать</button>
+        </div>
+    </div>
     <script src = "https://telegram.org/js/telegram-web-app.js"></script>
     <script src="skript.js"></script>
-        <button>нажми на меня</button>
-    </div>
 </body>
 </html>
